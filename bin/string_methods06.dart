@@ -1,6 +1,6 @@
 bool func(String s) {
   bool ans;
-  String d = " ";
+  String d = "";
   ans = s == d;
   """
     A variable of type str is given. Check that it is empty or not.
@@ -14,5 +14,5 @@ bool func(String s) {
 }
 
 void main() {
-  print(func(" "));
+  print(func(""));
 }
