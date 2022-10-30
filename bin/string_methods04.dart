@@ -1,4 +1,6 @@
 bool func(String s) {
+  bool ans;
+  ans = s == s.toUpperCase();
   """
     A variable of type str is given. make sure all letters are uppercase.
     Args:
@@ -7,7 +9,9 @@ bool func(String s) {
         bool: answer
     """;
 
-  return false;
+  return ans;
 }
 
-void main() {}
+void main() {
+  print(func("oktam"));
+}
