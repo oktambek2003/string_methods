@@ -1,4 +1,5 @@
 String func(String s) {
+  String b = s.toLowerCase();
   """
     A str of several words is given. All letters are capitalized. Return all letters in lower case.
     Args:
@@ -7,7 +8,9 @@ String func(String s) {
         str: answer
     """;
 
-  return '';
+  return b;
 }
 
-void main() {}
+void main() {
+  print(func("ASDFGFDH"));
+}
