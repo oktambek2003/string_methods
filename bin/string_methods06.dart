@@ -1,4 +1,7 @@
 bool func(String s) {
+  bool ans;
+  String d = " ";
+  ans = s == d;
   """
     A variable of type str is given. Check that it is empty or not.
     Args:
@@ -7,7 +10,9 @@ bool func(String s) {
         bool: answer
     """;
 
-  return false;
+  return ans;
 }
 
-void main() {}
+void main() {
+  print(func(" "));
+}
