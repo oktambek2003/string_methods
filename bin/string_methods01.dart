@@ -1,4 +1,5 @@
 String func(String s) {
+  String b = s.toUpperCase();
   """
     A str of several words is given. All letters are lowercase. Return all letters to uppercase.
     Args:
@@ -7,7 +8,9 @@ String func(String s) {
         str: answer
     """;
 
-  return '';
+  return b;
 }
 
-void main() {}
+void main() {
+  print(func('oktam'));
+}
